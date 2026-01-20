@@ -17,7 +17,7 @@ Coded By Nmqx and Thibhrb in python and golang
 ## 🛠️ File Structure
 
 - **`flow.py`**: The main entry point. Orchestrates the solution process, interacting with the MTCaptcha API and the local services.
-- **`calculate.go`**: A standalone HTTP service (running on port 9091) that implements the reverse-engineered `generateHypothesis3` algorithm to calculate the `fa` parameter.
+- **`calculate.go`**: A standalone HTTP service (running on port 9091) that implements the reverse-engineered `generateHypothesis3` (by nmqx and gemini) algorithm to calculate the `fa` parameter.
 - **`cnn.py`**: The neural network definition (CRNN) and training logic.
 - **`predictor.py`**: A lightweight inference wrapper for the trained model.
 - **`crnn_weights.pt`**: Pre-trained weights for the captcha solver.
