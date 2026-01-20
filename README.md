@@ -53,6 +53,8 @@ and it will listen on port 9091
 ### 2. Run the Solver
 Open a separate terminal and run the main flow script.
 
+Make sure to change the proxies in flow.py to your own proxies. There is a big input ur own proxies in the file you should find it pretty easily
+
 ```bash
 python flow.py
 ```
