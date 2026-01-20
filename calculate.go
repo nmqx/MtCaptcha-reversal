@@ -24,7 +24,7 @@ func init() {
 	}
 }
 
-//  MTCaptcha full js reversal of the logic
+//  MTCaptcha full js reversal of the logic.
 
 func foldBase64IntArray(a1 []int, foldCount int) []int {
 	a2 := make([]int, len(a1))
