@@ -35,7 +35,7 @@ urlstep1 = f'https://service.mtcaptcha.com/mtcv1/api/getchallenge.json?sk=MTPubl
 
 proxies = {
 
-    "https": f"http://9f6pvo-country-FR-session-{randkey}-time-1:w3nhjsl5@res-v1.nettify.xyz:8080"
+    "https": f"INPUT UR PROXY HERE"
 }
 
 browsers = ["safari","chrome"]
@@ -115,3 +115,4 @@ if isVerified:
     print(f"Captcha Answer: {vt}")
 else:
     print("Captcha not verified cos of cnn :(")
+    print(solve_resp.text)
